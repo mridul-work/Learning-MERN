@@ -1,0 +1,66 @@
+.header {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  width: 96%;
+  height: 60px;
+  background-color: white;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2%;
+  z-index: 1000;
+  border: 0.1px solid gray
+}
+
+.logo {
+  margin: 0;
+}
+
+.bi-person-circle {
+  font-size: 1.8rem;
+  cursor: pointer;
+}
+
+.profileImg {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.profileImg:hover {
+  opacity: 0.8;
+}
+
+
+.card {
+  height: 50px;
+  width: 120px;
+
+  display:flex;
+  flex-direction: row;
+  justify-content:space-around;
+  align-items: center;  
+  background-color: white;
+  border-radius: 25px;
+  border: 1px solid gray;
+
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  display: "flex";
+  align-items: "center";
+  gap: "10px";
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.45);
+}
+
+.container {
+  padding: 2px 16px;
+}

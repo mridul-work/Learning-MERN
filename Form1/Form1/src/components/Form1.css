@@ -1,0 +1,93 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+.formContainer {
+  background-color: #e0f7f9;
+  padding: 20px 40px;
+  min-height: 100vh;
+  max-width: 900px;
+  margin: 40px auto;
+  border-radius: 8px;
+  font-family: Arial, sans-serif;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.reqInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.reqInfoTop {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: center;
+}
+
+.card {
+  background-color: white;
+  border-radius: 6px;
+  padding: 16px 24px;
+  box-shadow: 0 2px 6px rgb(0 0 0 / 0.1);
+  flex: 1 1 200px;
+  max-width: 220px;
+}
+
+.draftCardContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.draft-card {
+  background-color: white;
+  border-radius: 6px;
+  padding: 16px 24px;
+  box-shadow: 0 2px 6px rgb(0 0 0 / 0.1);
+  width: 460px;
+}
+
+.card h6, .draft-card h6 {
+  font-weight: 600;
+  font-size: 0.85rem;
+  color: #666;
+  margin-bottom: 8px;
+}
+
+.card h5, .draft-card h5 {
+  font-weight: 700;
+  font-size: 1.1rem;
+  margin: 0;
+}
+
+.changeDetails {
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 20px;
+  background-color: white;
+}
+
+label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 600;
+}
+
+input[type="text"], textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #aaa;
+  resize: vertical;
+  font-size: 1rem;
+}
+
+.formGroup {
+  margin-bottom: 20px;
+}
