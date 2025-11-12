@@ -15,7 +15,7 @@ export default function SectionWrapper({
       elevation={0}
       sx={{
         p: 2,
-        mb: 4,
+        mb: 0,
         border: "1px solid #e0e0e0",
         borderRadius: "8px",
         backgroundColor: "#fff",

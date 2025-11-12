@@ -13,7 +13,8 @@ export default function Container({ children }: ContainerProps) {
         margin: "0 auto",
         padding: "0px 0px",
         backgroundColor: "#e0d0d0ff",
-        minHeight: "100vh",
+        maxHeight: "100vh",
+        border: "1px solid black",
       }}
     >
       {children}
