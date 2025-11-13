@@ -20,7 +20,7 @@ const RequestorInformation: React.FC = () => {
           border: "1px solid #ddd",
           borderRadius: 2,
           m: 2,
-          p: 2,
+          p: 5,
           mb: 3,
           backgroundColor: "#fff",
         }}
@@ -30,6 +30,7 @@ const RequestorInformation: React.FC = () => {
         </Typography>
 
         <Grid container spacing={2} columns={10} sx={{ padding: 2, margin: 2 }}>
+
           <div
             style={{
               display: "flex",
